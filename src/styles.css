@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(167, 233, 253);
+}
+.navbar{
+    background-color: whitesmoke;
+    height: 100px;
+   
+}
+.navbar >a > img{
+    width: 100px;
+    height: 100px;
+    margin-left: 300px;
+    
+}
+.navbar >a{
+    margin-left: 100px;
+    padding-bottom: 50px;
+}

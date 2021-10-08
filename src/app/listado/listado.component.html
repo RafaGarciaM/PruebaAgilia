@@ -1,0 +1,28 @@
+
+<div class="general">
+    <button class="add">Añadir</button>
+    
+    <!-- bucle que recorre el array y lo muestra -->
+    <div class="useritem" *ngFor = "let usuario of usuario">
+        <img src="{{usuario.avatar | json}}" alt="" >
+        <div class="lista">
+            
+           
+            {{usuario.id | json}}
+            {{usuario.email}}
+            <button class="borrar" >Borrar</button>
+            <button class="editar">Editar</button>
+            
+        </div>
+        
+       
+
+        
+       
+        
+        
+    </div> 
+    
+
+    
+</div>

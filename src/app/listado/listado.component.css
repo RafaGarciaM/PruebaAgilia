@@ -1,0 +1,32 @@
+.add{
+    background-color: rgb(113, 187, 3);
+    width: 700px;
+    height: 50px;
+    text-align: -webkit-center;
+    margin-top: 100px;
+}
+button{
+    border-radius: 8px;
+}
+.borrar{
+    background-color: rgb(168, 0, 0);
+    height: 20px;
+    float: right;
+}
+.editar{
+    background-color: rgb(255, 196, 0);
+    float: right;
+}
+body{
+    background-color: grey !important;
+}
+.lista{
+    background-color: whitesmoke;
+    max-width: 30%;
+    border: solid;
+    border-radius: 8px;
+}
+.general{
+    text-align: -webkit-center;
+
+}
